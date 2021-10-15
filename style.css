@@ -1,0 +1,88 @@
+#home{
+    display: flex; 
+    flex-direction: column;
+    padding: 3px 200ps;
+    justify-content: center;
+    align-items: center;
+    height: 632px;
+ }
+ 
+ #home::before{
+     content: "";
+     /* background:url('../food.jpg'); */
+     background:url('background.jpg')  center center/cover ;
+     /* background-repeat: no-repeat; */
+     position: absolute;
+     height: 625px;
+     width: 100%;
+     z-index: -1;
+     opacity: 1.8;
+ 
+ }
+
+ #ceo{
+    margin-left: 200px;
+    font-family: cursive;
+    font-size: 2rem;
+    color: orange;
+    text-align: center;
+    align-items: center;
+ }
+
+ #pro{
+     color: white;
+     align-items: center;
+     text-align: center;
+     font-family: cursive;
+     margin-top: 0px;
+     padding: 20px;
+ }
+
+ .cards{
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 2px;
+    width: 300px;
+    height: 400px;
+ }
+
+ #cv{
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+    margin-top: 0px;
+    padding: 2
+ }
+ 
+ .vision{
+    font-family: inherit;
+    margin-left: 50px;
+    color: tan;
+    font-size: 2.3rem;
+    margin-top: 50px;
+ }
+
+ .air{
+     color: chartreuse;
+     font-size: 2.3rem;
+     margin-top: 50px ;
+ }
+ 
+ #place2{
+     margin-left: 10px;
+ }
+
+ #dbs{
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+    margin-top: 10px;
+    padding: 2
+ }
+
+ .datalink a:hover{
+     color: red;
+     background-color: green;
+ }
